@@ -16,7 +16,7 @@ The junction ID contains 3 pieces of information separated as such:
 
 , where type corresponds to the position of the junction relative to the border of the exon (pos=3' & neg=5').  
 
-A set of constituitive junctions for the hg19 human and mm9 mouse genomes can be found in the junctiofiles folder.  
+A set of constituitive junctions for the hg19 human and mm9 mouse genomes can be found in the junctionfiles folder.  
 
  I am currently configuring this github page and code will be posted soon.  
  This tool was first presented as a poster at the American Society of Human Genetics conference in Baltimore in 2015.  
