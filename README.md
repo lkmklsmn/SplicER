@@ -4,7 +4,10 @@ The user needs to provide a minimum of two inputs 1) RNA-seq alignment file in B
 
 Quick start: 
 > python splicer.py --bamfile=alignment.bam --junctionfile=junction.txt --output=output.txt  
-  
+
+For more information:
+> python splicer.py -h  
+
 The --junctionfile accepts a file where each line corresponds to a junction ID in the following format:
 >pos$chr1:1000  
 >pos$chr1:1500  
