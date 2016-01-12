@@ -2,6 +2,8 @@
  Analytic scheme for the analysis of Splicing Efficiency in RNA-seq data. This python tool will analyze RNA-seq reads overlapping a set of junctions and classify each read as "clean" or "dirty" (see ASHG2015.Poster.final.pdf for more details).  
 The user needs to provide a minimum of two inputs 1) RNA-seq alignment file in BAM format and 2) a file containing a set of junctions in junctionfile format.
 
+You need python with the pysam module installed to run SplicER.  
+
 Quick start: 
 > python splicer.py --bamfile=alignment.bam --junctionfile=junction.txt --output=output.txt  
 
