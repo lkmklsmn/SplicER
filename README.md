@@ -7,6 +7,8 @@ You need python with the pysam module installed to run SplicER.
 Quick start: 
 > python splicer.py --bamfile=alignment.bam --junctionfile=junction.txt --output=output.txt  
 
+Or run the example.sh script.
+
 For more information:
 > python splicer.py -h  
 
