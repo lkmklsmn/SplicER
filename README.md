@@ -22,7 +22,7 @@ The --junctionfile accepts a file where each line corresponds to a junction ID i
 The junction ID contains 3 pieces of information separated as such:
 >type -"$"- chromosome -":"- position  
 
-, where type corresponds to the position of the junction relative to the border of the exon (pos=3' & neg=5' genomic coordinates, NOT direction of transcription).  
+, where type corresponds to the position of the junction relative to the border of the exon (pos=3' & neg=5' based on genomic coordinates, NOT direction of transcription).  
 
 A set of constituitive junctions for the hg19 human and mm9 mouse genomes can be found in the junctionfiles folder.  
 
